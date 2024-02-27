@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- pure html -->
+    <!-- <div id="root">
+        <h1>Welcome to React app</h1>
+    </div> -->
+    <!--loading the ui using js -->
+    <div id="root">
+        <!-- react will override this -->
+        <h1>not rendered</h1>
+    </div>
+
+    <!-- create a eleemt using the normal javascript -->
+<!-- <script>
+    const header = document.createElement("h1");
+    header.innerHTML = "welcome to react project";
+    const root = document.getElementById("root");
+    root.appendChild(header);
+</script> -->
+    <!-- import the react library using react cdn -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
