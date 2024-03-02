@@ -1,0 +1,29 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "react project",
+  "main": "App.js",
+  "scripts": {
+    "test": "just"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satish-mobtexting/reactproject.git"
+  },
+  "author": "satish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satish-mobtexting/reactproject/issues"
+  },
+  "homepage": "https://github.com/satish-mobtexting/reactproject#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":
+  ["last 2 version"]
+}
