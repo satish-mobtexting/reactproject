@@ -1,3 +1,21 @@
 #container {
     background-color: crimson;
 }
+.logo {
+    width: 100px;
+}
+
+.header {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.navitems > ul {
+    display: flex;
+    list-style-type: none;
+}
+.navitems > ul > li {
+    padding: 10px;
+}
