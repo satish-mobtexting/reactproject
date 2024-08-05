@@ -1,7 +1,7 @@
 {
-  "name": "yes",
+  "name": "react app",
   "version": "1.0.0",
-  "description": "react project",
+  "description": "this is the react app by satish",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
